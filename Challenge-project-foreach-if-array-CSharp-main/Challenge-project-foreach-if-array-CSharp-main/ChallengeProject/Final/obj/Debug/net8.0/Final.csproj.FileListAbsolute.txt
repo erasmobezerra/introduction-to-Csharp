@@ -1,0 +1,14 @@
+C:\Users\Erasmo\Documents\Erasmo\tecnologia\workspace\Challenge-project-foreach-if-array-CSharp-main\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Final\bin\Debug\net8.0\Final.exe
+C:\Users\Erasmo\Documents\Erasmo\tecnologia\workspace\Challenge-project-foreach-if-array-CSharp-main\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Final\bin\Debug\net8.0\Final.deps.json
+C:\Users\Erasmo\Documents\Erasmo\tecnologia\workspace\Challenge-project-foreach-if-array-CSharp-main\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Final\bin\Debug\net8.0\Final.runtimeconfig.json
+C:\Users\Erasmo\Documents\Erasmo\tecnologia\workspace\Challenge-project-foreach-if-array-CSharp-main\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Final\bin\Debug\net8.0\Final.dll
+C:\Users\Erasmo\Documents\Erasmo\tecnologia\workspace\Challenge-project-foreach-if-array-CSharp-main\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Final\bin\Debug\net8.0\Final.pdb
+C:\Users\Erasmo\Documents\Erasmo\tecnologia\workspace\Challenge-project-foreach-if-array-CSharp-main\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Final\obj\Debug\net8.0\Final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erasmo\Documents\Erasmo\tecnologia\workspace\Challenge-project-foreach-if-array-CSharp-main\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Final\obj\Debug\net8.0\Final.AssemblyInfoInputs.cache
+C:\Users\Erasmo\Documents\Erasmo\tecnologia\workspace\Challenge-project-foreach-if-array-CSharp-main\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Final\obj\Debug\net8.0\Final.AssemblyInfo.cs
+C:\Users\Erasmo\Documents\Erasmo\tecnologia\workspace\Challenge-project-foreach-if-array-CSharp-main\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Final\obj\Debug\net8.0\Final.csproj.CoreCompileInputs.cache
+C:\Users\Erasmo\Documents\Erasmo\tecnologia\workspace\Challenge-project-foreach-if-array-CSharp-main\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Final\obj\Debug\net8.0\Final.dll
+C:\Users\Erasmo\Documents\Erasmo\tecnologia\workspace\Challenge-project-foreach-if-array-CSharp-main\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Final\obj\Debug\net8.0\refint\Final.dll
+C:\Users\Erasmo\Documents\Erasmo\tecnologia\workspace\Challenge-project-foreach-if-array-CSharp-main\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Final\obj\Debug\net8.0\Final.pdb
+C:\Users\Erasmo\Documents\Erasmo\tecnologia\workspace\Challenge-project-foreach-if-array-CSharp-main\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Final\obj\Debug\net8.0\Final.genruntimeconfig.cache
+C:\Users\Erasmo\Documents\Erasmo\tecnologia\workspace\Challenge-project-foreach-if-array-CSharp-main\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Final\obj\Debug\net8.0\ref\Final.dll
