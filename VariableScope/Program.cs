@@ -92,9 +92,38 @@ presentes no código, seja incluindo ou omitindo as chaves
 em todas as ocorrências semelhantes. */
 
 
-/*
-// Desafio de código: atualizar um código problemático no editor de código
 
+// #### Desafio de código: atualizar um código problemático no editor de código
+
+// Código problemático:
+int[] numbers = { 4, 8, 15, 16, 23, 42 };
+
+foreach (int number in numbers)
+{
+    int total;
+
+    total += number;
+
+    if (number == 42)
+    {
+       bool found = true;
+
+    }
+
+}
+
+if (found) 
+{
+    Console.WriteLine("Set contains 42");
+
+}
+
+Console.WriteLine($"Total: {total}");
+
+
+
+
+// Código corrigido!
 int[] numbers = { 4, 8, 15, 16, 23, 42 };
 int total= 0;
 bool found = false;
@@ -111,30 +140,4 @@ if (found)
 
 Console.WriteLine($"Total: {total}");
 
-*/
 
-
-
-/*
-int number = 1;
-
-if (number > 0) 
-{
-    int number2 = 8;
-    number += number2;
-} 
-
-Console.WriteLine(number);
-*/
-
-int number = 5;
-
-if (number > 0)
-{
-    int number2 = 6;
-}
-
-number += number2; 
-Console.WriteLine(number);
-
- 
