@@ -104,29 +104,37 @@ Abaixo (depois) do bloco de código de iteração: a solução deve usar uma ins
 Console.WriteLine("Favor informe um valor inteiro entre 5 e 10:");
 */
 
-/*
-string? readResult;
-int numericValue = 0;
-bool validNumber = false;
+Console.WriteLine("\nProjeto de código 1 – escrever o código que valida a entrada de inteiro\n");
 
+string? readResult;
+int numericValue;
+bool validNumber;
+
+Console.WriteLine("Favor informe um valor inteiro entre 5 e 10: ");
 do
 {
+    
     readResult = Console.ReadLine();
     validNumber = int.TryParse(readResult, out numericValue);
 
-    if (validNumber && numericValue < 5 || numericValue > 10)
+    if (validNumber)  
     {
-        Console.WriteLine("Você deve informar um valor inteiro entre 5 e 10! Tente novamente:");
-    }
-    else
-    {
-        Console.WriteLine("Entrada inválida! Não será aceito letras ou sinal de pontuação. Favor informe um valor inteiro válido:");
-    }
+        if (IsItBetween5And10(numericValue))         
+            Console.WriteLine($"O valor {readResult} está fora do intervalor entre 5 e 10. Favor tente novamente:"); 
+    }               
+    else    
+        Console.WriteLine($"A entrada {readResult} é inválida! Não será aceito letras ou sinal de pontuação. Favor informe um valor inteiro válido:");
     
-} while (numericValue < 5 || numericValue > 10);
+    
+} while (IsItBetween5And10(numericValue));
 
-Console.WriteLine("O valor da entrada foi aceito");
-*/
+Console.WriteLine($"O valor da entrada {readResult} foi aceito!");
+
+
+bool IsItBetween5And10(int numericValue)
+{
+    return numericValue < 5 || numericValue > 10;
+}
 
 
 
@@ -148,21 +156,26 @@ A solução deve usar o método ToLower() no valor de entrada para ignorar maiú
 Se o valor inserido não corresponder a uma das opções de função, o código deverá usar uma instrução Console.WriteLine() para solicitar ao usuário uma entrada válida.
 Abaixo (depois) do bloco de código de iteração: a solução deve usar uma instrução Console.WriteLine() para informar ao usuário que o valor de entrada foi aceito. */
 
+Console.WriteLine("\nProjeto de código 2 – escrever o código que valida a entrada de cadeia de caracteres: \n");
 
-/* Console.WriteLine("Qual sua função: Administrador, Gerente ou Usuario: ");
+string? readResult1;
+Console.WriteLine("Qual sua ocupação: Administrador, Gerente ou Usuario: ");
 
-string? readResult;
 do
 {
-    readResult = Console.ReadLine()?.Trim().ToLower();
-    if (readResult != "administrador" && readResult != "gerente" && readResult != "usuario")
-    {
-        Console.WriteLine("Favor informar uma entrada válida: ");
-    }
+    readResult1 = Console.ReadLine()?.Trim().ToLower();
+    if (!EhOcupacaoValida(readResult1))    
+        Console.WriteLine($"Favor tente novamente! A ocupação {readResult1} não é válida:");   
+        
+} while(!EhOcupacaoValida(readResult1));
 
-} while(readResult != "administrador" && readResult != "gerente" && readResult != "usuario");
 
-Console.WriteLine("O valor da entrada foi aceito"); */
+bool EhOcupacaoValida(string? readResult)
+{    
+    return readResult == "administrador" || readResult == "gerente" || readResult == "usuario";
+}
+
+Console.WriteLine($"O valor da entrada {readResult1} foi aceito"); 
 
 
 
@@ -188,6 +201,7 @@ No loop interno, a solução não deve exibir o caractere de ponto.
 
 No loop interno, a solução deve usar os métodos Remove(), Substring() e TrimStart() para processar as informações da cadeia de caracteres. */
 
+Console.WriteLine("\nProjeto de código 3: escreva um código que processe o conteúdo de uma matriz de caracteres\n");
 
 string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
 
@@ -202,7 +216,7 @@ foreach (string myString in myStrings)
     {   
         if (newMyString.Contains('.'))
         {
-            periodLocation = newMyString.IndexOf(".");
+            periodLocation = newMyString.IndexOf('.');
             frase = newMyString.Substring(0, periodLocation);  
             Console.WriteLine(frase); 
             newMyString = newMyString.Remove(0, periodLocation).TrimStart('.').Trim();
