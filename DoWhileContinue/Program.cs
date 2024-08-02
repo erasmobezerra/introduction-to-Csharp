@@ -203,7 +203,7 @@ No loop interno, a solução deve usar os métodos Remove(), Substring() e TrimS
 
 Console.WriteLine("\nProjeto de código 3: escreva um código que processe o conteúdo de uma matriz de caracteres\n");
 
-string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+string[] myStrings = ["I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices"];
 
 int periodLocation;
 string? frase;
