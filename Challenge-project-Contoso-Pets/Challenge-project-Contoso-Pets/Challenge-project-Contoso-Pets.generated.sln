@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContosoPets", "ContosoPets", "{935FCEAA-E55C-4BC4-9F5F-879E18229CE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Final", "ContosoPets\Final\Final.csproj", "{8DA50A81-0EA9-4A22-B699-809F3F1E0CA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starter", "ContosoPets\Starter\Starter.csproj", "{4DDA5CFA-178C-4A4B-94AB-00AC4A63D365}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DA50A81-0EA9-4A22-B699-809F3F1E0CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA50A81-0EA9-4A22-B699-809F3F1E0CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA50A81-0EA9-4A22-B699-809F3F1E0CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA50A81-0EA9-4A22-B699-809F3F1E0CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDA5CFA-178C-4A4B-94AB-00AC4A63D365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDA5CFA-178C-4A4B-94AB-00AC4A63D365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDA5CFA-178C-4A4B-94AB-00AC4A63D365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDA5CFA-178C-4A4B-94AB-00AC4A63D365}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DA50A81-0EA9-4A22-B699-809F3F1E0CA3} = {935FCEAA-E55C-4BC4-9F5F-879E18229CE7}
+		{4DDA5CFA-178C-4A4B-94AB-00AC4A63D365} = {935FCEAA-E55C-4BC4-9F5F-879E18229CE7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {453D78F6-7BDD-4C28-83D7-6E9316C08FFE}
+	EndGlobalSection
+EndGlobal
