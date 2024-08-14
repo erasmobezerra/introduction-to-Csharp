@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Erasmo\\Documents\\Erasmo\\tecnologia\\workspace\\Introduction-to-C#\\CsharpProjects\\ConditionalOperator\\ConditionalOperator.csproj": {}
+    "C:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\ConditionalOperator\\ConditionalOperator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Erasmo\\Documents\\Erasmo\\tecnologia\\workspace\\Introduction-to-C#\\CsharpProjects\\ConditionalOperator\\ConditionalOperator.csproj": {
+    "C:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\ConditionalOperator\\ConditionalOperator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erasmo\\Documents\\Erasmo\\tecnologia\\workspace\\Introduction-to-C#\\CsharpProjects\\ConditionalOperator\\ConditionalOperator.csproj",
+        "projectUniqueName": "C:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\ConditionalOperator\\ConditionalOperator.csproj",
         "projectName": "ConditionalOperator",
-        "projectPath": "C:\\Users\\Erasmo\\Documents\\Erasmo\\tecnologia\\workspace\\Introduction-to-C#\\CsharpProjects\\ConditionalOperator\\ConditionalOperator.csproj",
+        "projectPath": "C:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\ConditionalOperator\\ConditionalOperator.csproj",
         "packagesPath": "C:\\Users\\Erasmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erasmo\\Documents\\Erasmo\\tecnologia\\workspace\\Introduction-to-C#\\CsharpProjects\\ConditionalOperator\\obj\\",
+        "outputPath": "C:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\ConditionalOperator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
