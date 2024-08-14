@@ -41,6 +41,6 @@ que é é totalmente gratuita, disponível globalmente e inclui este curso de 35
 Caso queira discutir algum dos tópicos abordados aqui ou tenha sugestões, sinta-se à vontade para entrar em contato:
 
 - **Email:** erasmo.ads.tech@gmail.com
-- **LinkedIn:** [seu-perfil](https://www.linkedin.com/in/erasmobezerra/)
+- **LinkedIn:** [erasmobezerra](https://www.linkedin.com/in/erasmobezerra/)
 
 ---
