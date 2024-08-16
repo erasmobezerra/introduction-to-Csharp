@@ -1,16 +1,31 @@
-﻿// Converter tipos de dados usando técnicas de conversão cast em C# 
+﻿// *Converter tipos de dados usando técnicas de conversão cast em C# 
 
 /* 
-Há diversas técnicas para executar uma conversão de tipo de dados. A técnica escolhida depende de sua resposta a duas perguntas importantes:
+*Há diversas técnicas para executar uma conversão de tipo de dados. A técnica escolhida depende de sua resposta a duas perguntas importantes:
 
-É possível, dependendo do valor, que a tentativa de alterar o tipo de dados do valor gerasse uma exceção em tempo de execução?
-É possível, dependendo do valor, que a tentativa de alterar o tipo de dados do valor resultasse em uma perda de informações?
+*É possível, dependendo do valor, que a tentativa de alterar o tipo de dados do valor gerasse uma exceção em tempo de execução?
+*É possível, dependendo do valor, que a tentativa de alterar o tipo de dados do valor resultasse em uma perda de informações?
  */
 
 
-// Escreva um código que tente somar um int com uma string e salve o resultado em um int.
-// Se o compilador C# tentou converter "hello" em um número que causaria uma exceção em tempo de execução. 
-// Para evitar essa possibilidade, o compilador C# não executa implicitamente a conversão de string para int por você.
+/* 
+*Executar conversões de dados
+Para conversões de dados, há três técnicas que podem ser usadas:
+
+*=> Usar um método auxiliar na variável (ex: int.Parse())
+*=> Usar um método auxiliar no tipo de dados (ex: ToString())
+*=> Use os métodos da classe Convert (ex: Convert.ToDecimal())
+*/
+
+
+
+/* 
+ *Compilador só executa conversões implícitas seguras 
+ 
+ Escreva um código que tente somar um int com uma string e salve o resultado em um int.
+ Se o compilador C# tentou converter "hello" em um número que causaria uma exceção em tempo de execução. 
+ Para evitar essa possibilidade, o compilador C# não executa implicitamente a conversão de string para int por você.*/
+
 /* int first = 2;
 string second = "4";
 int result = first + second;
@@ -19,6 +34,7 @@ Console.WriteLine(result); */
 
 // É possível fazer o contrário para concatenar um número a um string e salvá-lo em uma variável de cadeia de caracteres, 
 // Pois o compilador só executará uma conversão implícita se esta for uma conversão segura
+
 /* int first = 2;
 string second = "4";
 string result = first + second;
@@ -26,8 +42,10 @@ Console.WriteLine(result); */
 
 
 
-// Tentar alterar o tipo de dados do valor resultaria em uma perda de informações?
-// O termo conversão de expansão significa que você está tentando converter um valor 
+
+// *Conversão de Expansão - não há perda de dados
+
+// O termo *conversão de expansão* significa que você está tentando converter um valor 
 // de um tipo de dados que poderia armazenar menos informações em um tipo de dados que pode armazenar mais informações
 // Como qualquer valor int pode se ajustar facilmente dentro de um decimal, o compilador executa a conversão.
 /* int myInt = 3;
@@ -38,15 +56,25 @@ Console.WriteLine($"decimal: {myDecimal}"); */
 
 
 
-// Executar uma coerção: use o operador de coerção () para cercar um tipo de dados e 
-// coloque-o ao lado da variável que deseja converter (por exemplo: (int)myDecimal). 
-// Você executará uma conversão explícita para o tipo de dados de coerção definido (int)
+
+// *Conversão de Restrição - há perda de dados 
+
+/* 
+ Operador de coerção "()" - conversão explícita. Não converte string
+ É um operador utilizado em conversões onde há perda de informações proposital para aquele contexto
+ Executar uma coerção: use o operador de coerção () para cercar um tipo de dados e 
+ coloque-o ao lado da variável que deseja converter (por exemplo: (int)myDecimal). 
+ Você executará uma conversão explícita para o tipo de dados de coerção definido (int) */
+
 /* decimal myDecimal = 3.14m;
 Console.WriteLine($"decimal: {myDecimal}");
 
 int myInt = (int)myDecimal;
 Console.WriteLine($"int: {myInt}"); */
 
+
+
+// *Conversão de Expansão (implícita) e Conversão de Restrição (explícita)
 
 // Determine se sua conversão é uma "conversão de expansão" ou uma "conversão de restrição"
 /* decimal myDecimal = 1.23456789m;
@@ -57,16 +85,8 @@ Console.WriteLine($"Float  : {myFloat}"); */
 
 
 
-/* 
-Executar conversões de dados
-Anteriormente, foi declarado que uma alteração de valor de um tipo de dados para outro poderia causar uma 
-exceção de runtime e é necessário realizar a conversão de dados. Para conversões de dados, há três técnicas que podem ser usadas:
+// *Use ToString() para converter um número em um string
 
-=> Usar um método auxiliar na variável
-=> Usar um método auxiliar no tipo de dados
-=> Use os métodos da classe Convert */
-
-// Use ToString() para converter um número em um string
 /* int first = 5;
 int second = 7;
 string message = first.ToString() + second.ToString();
@@ -74,42 +94,48 @@ Console.WriteLine(message);
  */
 
 
-// Converter um string em um int usando o método auxiliar Parse()
+
+// *Converter um string em um int usando o método auxiliar Parse()
+
 // E se uma das variáveis first ou second estiver definida como valores que não podem ser convertidos em um int? 
 // Uma exceção é lançada no runtime. O compilador C# e o runtime esperam que você se antecipe e evite conversões "ilegais".
+
 /* string first = "5";
 string second = "7";
 int sum = int.Parse(first) + int.Parse(second);
 Console.WriteLine(sum); */
 
 
-// É possível resolver a exceção do runtime de diversas maneiras.
-// A maneira mais fácil é usar TryParse(), que é uma versão melhorada do método Parse().
+// *Converter um string em um int usando a classe Convert
 
-
-// Converter um string em um int usando a classe Convert
 /* string value1 = "5";
 string value2 = "7";
 int result = Convert.ToInt32(value1) * Convert.ToInt32(value2);
 Console.WriteLine(result); */
 
 
+
 /* 
-O método ToInt32() tem 19 versões sobrecarregadas, o que permite aceitar praticamente todos os tipos de dados.
+*O método ToInt32() tem 19 versões sobrecarregadas, o que permite aceitar praticamente todos os tipos de dados.
 
-Você usou o método Convert.ToInt32() com uma cadeia de caracteres aqui, mas provavelmente deve usar TryParse() quando possível.
+*Você usou o método Convert.ToInt32() com uma cadeia de caracteres aqui, mas provavelmente deve usar TryParse() quando possível.
 
-Então, quando usar a classe Convert? A classe Convert é melhor para converter números fracionários em números inteiros (int) porque os arredonda da maneira esperada. 
+*É possível resolver a exceção do runtime de diversas maneiras, A maneira mais fácil é usar TryParse()
+
+*Então, quando usar a classe Convert? A classe Convert é melhor para converter números fracionários em números inteiros (int) 
+*porque os arredonda da maneira esperada. 
 */
 
 
-/* Comparar a coerção e a conversão de um decimal em um int
+/* 
+*Comparar a coerção e a conversão de um decimal em um int
 
-A coerção resulta em truncamentos e a conversão resulta em valores arredondados
+* coerção resulta em truncamentos e a conversão resulta em valores arredondados
 
 => Ao fazer a coerção de int value = (int)1.5m;, o valor do float é truncado para que o resultado seja 1, o que significa que o valor após o decimal é completamente 
 ignorado. É possível alterar o float literal para 1.999m e o resultado da coerção é o mesmo. */
 
+//*Para truncar um número fracionado, utilize operador de coerção () 
 /* int value = (int)1.5m; 
 Console.WriteLine(value); */
 
@@ -117,6 +143,7 @@ Console.WriteLine(value); */
 => Ao fazer a conversão usando Convert.ToInt32(), o valor do float literal é arredondado corretamente para 2. Se você alterar o valor literal para 1.499m, 
 ele será arredondado para baixo para 1. */
 
+//*Para arredondar um número fracionado, utilize a classe Convert
 /* int value2 = Convert.ToInt32(1.5m); 
 Console.WriteLine(value2); */
 
@@ -137,15 +164,15 @@ Usar a classe Convert para realizar uma conversão de restrição quando você d
 
 
 
+//*Usar TryParse() 
 
+/* 
+*O método TryParse() faz várias coisas simultaneamente:
 
-// Usar TryParse()
+*Ele tenta analisar uma cadeia de caracteres sobre o tipo de dados numérico fornecido.
+*Se a conversão der certo, o valor convertido é armazenado em um parâmetro de saída, explicado na seção a seguir.
+* Retorna um bool para indicar se a ação foi bem-sucedida ou falhou. */
 
-/* O método TryParse() faz várias coisas simultaneamente:
-
-Ele tenta analisar uma cadeia de caracteres sobre o tipo de dados numérico fornecido.
-Se a conversão der certo, o valor convertido é armazenado em um parâmetro de saída, explicado na seção a seguir.
-Retorna um bool para indicar se a ação foi bem-sucedida ou falhou. */
 /* string value = "102";
 int result = 0;
 if (int.TryParse(value, out result))
@@ -158,7 +185,7 @@ else
 } */
 
 
-// O int analisado será usado posteriormente no código
+// *O int analisado será usado posteriormente no código
 /* string value = "102";
 int result = 0;
 if (int.TryParse(value, out result))
@@ -173,7 +200,7 @@ Console.WriteLine($"Measurement (w/ offset): {50 + result}"); */
 
 
 
-// Modificar a variável de cadeia de caracteres para um valor que não possa ser analisado
+// *Modificar a variável de cadeia de caracteres para um valor que não possa ser analisado
 /* string value = "bad";
 int result = 0;
 if (int.TryParse(value, out result))
@@ -219,7 +246,7 @@ Regra 2: se o valor for numérico, adicione-o ao total.
 
 Regra 3: o resultado deve corresponder à seguinte saída: */
 
-/* using System.Text;
+using System.Text;
 
 decimal result;
 decimal sum = 0m;
@@ -236,7 +263,7 @@ foreach (string item in values)
 }
 
 Console.WriteLine(str.ToString());
-Console.WriteLine(sum.ToString()); */
+Console.WriteLine(sum.ToString());
 
 
 
@@ -261,7 +288,7 @@ int result1 = Convert.ToInt32(value1 / value2);
 Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
 
 // Your code here to set result2
-decimal result2 = value2 / Convert.ToDecimal(value3); 
+decimal result2 = value2 / (decimal)value3; 
 Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
 
 // Your code here to set result3
