@@ -96,7 +96,7 @@ em todas as ocorrências semelhantes. */
 // #### Desafio de código: atualizar um código problemático no editor de código
 
 // Código problemático:
-int[] numbers = { 4, 8, 15, 16, 23, 42 };
+/* int[] numbers = { 4, 8, 15, 16, 23, 42 };
 
 foreach (int number in numbers)
 {
@@ -118,7 +118,7 @@ if (found)
 
 }
 
-Console.WriteLine($"Total: {total}");
+Console.WriteLine($"Total: {total}"); */
 
 
 

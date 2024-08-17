@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\ChooseDataType\\ChooseDataType.csproj": {}
+    "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ChooseDataType\\ChooseDataType.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\ChooseDataType\\ChooseDataType.csproj": {
+    "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ChooseDataType\\ChooseDataType.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\ChooseDataType\\ChooseDataType.csproj",
+        "projectUniqueName": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ChooseDataType\\ChooseDataType.csproj",
         "projectName": "ChooseDataType",
-        "projectPath": "c:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\ChooseDataType\\ChooseDataType.csproj",
+        "projectPath": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ChooseDataType\\ChooseDataType.csproj",
         "packagesPath": "C:\\Users\\Erasmo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\ChooseDataType\\obj\\",
+        "outputPath": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ChooseDataType\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

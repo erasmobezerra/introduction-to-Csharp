@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\VariableScope\\VariableScope.csproj": {}
+    "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\VariableScope\\VariableScope.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\VariableScope\\VariableScope.csproj": {
+    "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\VariableScope\\VariableScope.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\VariableScope\\VariableScope.csproj",
+        "projectUniqueName": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\VariableScope\\VariableScope.csproj",
         "projectName": "VariableScope",
-        "projectPath": "C:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\VariableScope\\VariableScope.csproj",
+        "projectPath": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\VariableScope\\VariableScope.csproj",
         "packagesPath": "C:\\Users\\Erasmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erasmo\\Desktop\\Introduction-to-C#\\VariableScope\\obj\\",
+        "outputPath": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\VariableScope\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

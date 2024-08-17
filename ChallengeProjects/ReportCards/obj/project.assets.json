@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Erasmo\\Documents\\Erasmo\\tecnologia\\workspace\\Introduction-to-C#\\Challenge-project-foreach-if-array-CSharp-main\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject\\Starter\\Starter.csproj",
+      "projectUniqueName": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ChallengeProjects\\ReportCards\\Starter.csproj",
       "projectName": "Starter",
-      "projectPath": "C:\\Users\\Erasmo\\Documents\\Erasmo\\tecnologia\\workspace\\Introduction-to-C#\\Challenge-project-foreach-if-array-CSharp-main\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject\\Starter\\Starter.csproj",
+      "projectPath": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ChallengeProjects\\ReportCards\\Starter.csproj",
       "packagesPath": "C:\\Users\\Erasmo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Erasmo\\Documents\\Erasmo\\tecnologia\\workspace\\Introduction-to-C#\\Challenge-project-foreach-if-array-CSharp-main\\Challenge-project-foreach-if-array-CSharp-main\\ChallengeProject\\Starter\\obj\\",
+      "outputPath": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ChallengeProjects\\ReportCards\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

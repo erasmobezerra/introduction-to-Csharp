@@ -25,7 +25,7 @@ Console.WriteLine("a" != "a");
 Console.WriteLine("a" != "A");
 Console.WriteLine(1 != 2);
 
-string myValue = "a";
+myValue = "a";
 Console.WriteLine(myValue != "a");
 
 
@@ -52,7 +52,7 @@ Console.WriteLine(pangram.Contains("cow"));
 
 //  o operador de negação lógica
 
-string pangram = "The quick brown fox jumps over the lazy dog.";
+pangram = "The quick brown fox jumps over the lazy dog.";
 Console.WriteLine(!pangram.Contains("fox"));
 Console.WriteLine(!pangram.Contains("cow"));
 
