@@ -1,0 +1,15 @@
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\bin\Debug\net8.0\FormatStrings.exe
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\bin\Debug\net8.0\FormatStrings.deps.json
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\bin\Debug\net8.0\FormatStrings.runtimeconfig.json
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\bin\Debug\net8.0\FormatStrings.dll
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\bin\Debug\net8.0\FormatStrings.pdb
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\obj\Debug\net8.0\FormatStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\obj\Debug\net8.0\FormatStrings.AssemblyInfoInputs.cache
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\obj\Debug\net8.0\FormatStrings.AssemblyInfo.cs
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\obj\Debug\net8.0\FormatStrings.csproj.CoreCompileInputs.cache
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\obj\Debug\net8.0\FormatStrings.sourcelink.json
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\obj\Debug\net8.0\FormatStrings.dll
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\obj\Debug\net8.0\refint\FormatStrings.dll
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\obj\Debug\net8.0\FormatStrings.pdb
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\obj\Debug\net8.0\FormatStrings.genruntimeconfig.cache
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\FormatStrings\obj\Debug\net8.0\ref\FormatStrings.dll
