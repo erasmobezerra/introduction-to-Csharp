@@ -1,0 +1,15 @@
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\obj\Debug\net8.0\ModifyContent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\obj\Debug\net8.0\ModifyContent.AssemblyInfoInputs.cache
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\obj\Debug\net8.0\ModifyContent.AssemblyInfo.cs
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\obj\Debug\net8.0\ModifyContent.csproj.CoreCompileInputs.cache
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\obj\Debug\net8.0\ModifyContent.sourcelink.json
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\bin\Debug\net8.0\ModifyContent.exe
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\bin\Debug\net8.0\ModifyContent.deps.json
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\bin\Debug\net8.0\ModifyContent.runtimeconfig.json
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\bin\Debug\net8.0\ModifyContent.dll
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\bin\Debug\net8.0\ModifyContent.pdb
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\obj\Debug\net8.0\ModifyContent.dll
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\obj\Debug\net8.0\refint\ModifyContent.dll
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\obj\Debug\net8.0\ModifyContent.pdb
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\obj\Debug\net8.0\ModifyContent.genruntimeconfig.cache
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ModifyContent\obj\Debug\net8.0\ref\ModifyContent.dll
