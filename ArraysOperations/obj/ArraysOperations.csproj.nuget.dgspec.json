@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ArraysOperations\\ArraysOperations.csproj": {}
+    "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ArraysOperations\\ArraysOperations.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ArraysOperations\\ArraysOperations.csproj": {
+    "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ArraysOperations\\ArraysOperations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ArraysOperations\\ArraysOperations.csproj",
+        "projectUniqueName": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ArraysOperations\\ArraysOperations.csproj",
         "projectName": "ArraysOperations",
-        "projectPath": "c:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ArraysOperations\\ArraysOperations.csproj",
+        "projectPath": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ArraysOperations\\ArraysOperations.csproj",
         "packagesPath": "C:\\Users\\Erasmo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ArraysOperations\\obj\\",
+        "outputPath": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ArraysOperations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

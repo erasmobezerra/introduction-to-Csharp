@@ -1,0 +1,15 @@
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\bin\Debug\net8.0\ContosoPets-work-variable-data.exe
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\bin\Debug\net8.0\ContosoPets-work-variable-data.deps.json
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\bin\Debug\net8.0\ContosoPets-work-variable-data.runtimeconfig.json
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\bin\Debug\net8.0\ContosoPets-work-variable-data.dll
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\bin\Debug\net8.0\ContosoPets-work-variable-data.pdb
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\obj\Debug\net8.0\ContosoPets-work-variable-data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\obj\Debug\net8.0\ContosoPets-work-variable-data.AssemblyInfoInputs.cache
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\obj\Debug\net8.0\ContosoPets-work-variable-data.AssemblyInfo.cs
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\obj\Debug\net8.0\ContosoPets-work-variable-data.csproj.CoreCompileInputs.cache
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\obj\Debug\net8.0\ContosoPets-work-variable-data.sourcelink.json
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\obj\Debug\net8.0\ContosoPets-work-variable-data.dll
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\obj\Debug\net8.0\refint\ContosoPets-work-variable-data.dll
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\obj\Debug\net8.0\ContosoPets-work-variable-data.pdb
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\obj\Debug\net8.0\ContosoPets-work-variable-data.genruntimeconfig.cache
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\ChallengeProjects\ContosoPets-work-variable-data\obj\Debug\net8.0\ref\ContosoPets-work-variable-data.dll
