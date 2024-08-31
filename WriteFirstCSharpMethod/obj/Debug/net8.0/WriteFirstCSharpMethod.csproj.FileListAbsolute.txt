@@ -1,0 +1,15 @@
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\obj\Debug\net8.0\WriteFirstCSharpMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\obj\Debug\net8.0\WriteFirstCSharpMethod.AssemblyInfoInputs.cache
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\obj\Debug\net8.0\WriteFirstCSharpMethod.AssemblyInfo.cs
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\obj\Debug\net8.0\WriteFirstCSharpMethod.csproj.CoreCompileInputs.cache
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\obj\Debug\net8.0\WriteFirstCSharpMethod.sourcelink.json
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\bin\Debug\net8.0\WriteFirstCSharpMethod.exe
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\bin\Debug\net8.0\WriteFirstCSharpMethod.deps.json
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\bin\Debug\net8.0\WriteFirstCSharpMethod.runtimeconfig.json
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\bin\Debug\net8.0\WriteFirstCSharpMethod.dll
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\bin\Debug\net8.0\WriteFirstCSharpMethod.pdb
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\obj\Debug\net8.0\WriteFirstCSharpMethod.dll
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\obj\Debug\net8.0\refint\WriteFirstCSharpMethod.dll
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\obj\Debug\net8.0\WriteFirstCSharpMethod.pdb
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\obj\Debug\net8.0\WriteFirstCSharpMethod.genruntimeconfig.cache
+C:\Users\Erasmo\Desktop\tecnologia\workspace\Introduction-to-C#\WriteFirstCSharpMethod\obj\Debug\net8.0\ref\WriteFirstCSharpMethod.dll
