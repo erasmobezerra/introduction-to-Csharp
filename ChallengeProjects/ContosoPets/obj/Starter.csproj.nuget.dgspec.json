@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ChallengeProjects\\ContosoPets\\Starter.csproj": {}
+    "/home/erasmorb/Área de trabalho/introduction-to-Csharp/ChallengeProjects/ContosoPets/Starter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ChallengeProjects\\ContosoPets\\Starter.csproj": {
+    "/home/erasmorb/Área de trabalho/introduction-to-Csharp/ChallengeProjects/ContosoPets/Starter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ChallengeProjects\\ContosoPets\\Starter.csproj",
+        "projectUniqueName": "/home/erasmorb/Área de trabalho/introduction-to-Csharp/ChallengeProjects/ContosoPets/Starter.csproj",
         "projectName": "Starter",
-        "projectPath": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ChallengeProjects\\ContosoPets\\Starter.csproj",
-        "packagesPath": "C:\\Users\\Erasmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erasmo\\Desktop\\tecnologia\\workspace\\Introduction-to-C#\\ChallengeProjects\\ContosoPets\\obj\\",
+        "projectPath": "/home/erasmorb/Área de trabalho/introduction-to-Csharp/ChallengeProjects/ContosoPets/Starter.csproj",
+        "packagesPath": "/home/erasmorb/.nuget/packages/",
+        "outputPath": "/home/erasmorb/Área de trabalho/introduction-to-Csharp/ChallengeProjects/ContosoPets/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Erasmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/erasmorb/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
