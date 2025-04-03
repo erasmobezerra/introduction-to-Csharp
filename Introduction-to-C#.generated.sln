@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoPets-work-variable-d
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starter (1)", "ChallengeProjects\ReportCards\Starter.csproj", "{8EF16F65-0A30-4C7B-A331-8383D470C8EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateCSharpMethodsParameters", "CreateCSharpMethodsParameters\CreateCSharpMethodsParameters.csproj", "{EB6D3FAE-8ACD-49F3-9ADC-D33EC4545C84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{8EF16F65-0A30-4C7B-A331-8383D470C8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EF16F65-0A30-4C7B-A331-8383D470C8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EF16F65-0A30-4C7B-A331-8383D470C8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6D3FAE-8ACD-49F3-9ADC-D33EC4545C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6D3FAE-8ACD-49F3-9ADC-D33EC4545C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6D3FAE-8ACD-49F3-9ADC-D33EC4545C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6D3FAE-8ACD-49F3-9ADC-D33EC4545C84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
