@@ -27,9 +27,21 @@ int food = 0;
 InitializeGame();
 while (!shouldExit)
 {
-    Move();
+    // If true, Quit Terminal on non-directional key
+    Move(true); // Default value = false
+    // Terminate Program when resizing terminal
+    TerminateWhenResizingTerminal();
 }
 
+void TerminateWhenResizingTerminal()
+{
+    if (TerminalResized())
+    {
+        Console.Clear();
+        Console.WriteLine("Console was resized. Program exiting.");
+        Environment.Exit(0);
+    }
+}
 
 // Returns true if the Terminal was resized 
 bool TerminalResized() 
@@ -68,11 +80,12 @@ void FreezePlayer()
 }
 
 // Reads directional input from the Console and moves the player
-void Move() 
+void Move(bool closeTerminalOnNonDirectionalKey = false)
 {
     int lastX = playerX;
     int lastY = playerY;
     
+    // Captura o tecla pressionada sem imprimir no console
     switch (Console.ReadKey(true).Key) 
     {
         case ConsoleKey.UpArrow:
@@ -87,8 +100,9 @@ void Move()
 		case ConsoleKey.RightArrow: 
             playerX++; 
             break;
-		case ConsoleKey.Escape:     
-            shouldExit = true; 
+        default:
+            if (closeTerminalOnNonDirectionalKey)
+                Environment.Exit(0);
             break;
     }
 
