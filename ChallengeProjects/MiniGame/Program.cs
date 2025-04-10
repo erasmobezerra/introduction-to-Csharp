@@ -27,12 +27,17 @@ int food = 0;
 InitializeGame();
 while (!shouldExit)
 {
+    if (PlayerAppearanceIsStates2())
+        FreezePlayer();
+    
     Move(true);
+    
     if (CheckIfPlayerConsumedFood())
     {
-        ShowFood();
         ChangePlayer();
+        ShowFood();
     }
+    
     ExitWhenResizingTerminal();
 }
 
@@ -81,6 +86,11 @@ void ChangePlayer()
     player = states[food];
     Console.SetCursorPosition(playerX, playerY);
     Console.Write(player);
+}
+
+bool PlayerAppearanceIsStates2()
+{
+    return player == "(X_X)";
 }
 
 // Temporarily stops the player from moving
