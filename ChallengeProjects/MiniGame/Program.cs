@@ -27,7 +27,12 @@ int food = 0;
 InitializeGame();
 while (!shouldExit)
 {
-    Move(true); 
+    Move(true);
+    if (CheckIfPlayerConsumedFood())
+    {
+        ShowFood();
+        ChangePlayer();
+    }
     ExitWhenResizingTerminal();
 }
 
@@ -62,6 +67,12 @@ void ShowFood()
     // Display the food at the location
     Console.SetCursorPosition(foodX, foodY);
     Console.Write(foods[food]);
+}
+
+// If the positions of the player and the food are the same, the player has consumed the food
+bool CheckIfPlayerConsumedFood()
+{
+    return (playerX == foodX && playerY == foodY);
 }
 
 // Changes the player to match the food consumed
