@@ -30,7 +30,7 @@ while (!shouldExit)
     if (PlayerAppearanceIsStates2())
         FreezePlayer();
     
-    Move(true);
+    Move(closeTerminalOnNonDirectionalKey: true, increaseMovementSpeed: PlayerAppearanceIsStates1());
     
     if (CheckIfPlayerConsumedFood())
     {
@@ -77,6 +77,8 @@ void ShowFood()
 // If the positions of the player and the food are the same, the player has consumed the food
 bool CheckIfPlayerConsumedFood()
 {
+    // Quando player estiver com movimento opcional de 3, ao chegar na comida, deve andar
+    // playerY 
     return (playerX == foodX && playerY == foodY);
 }
 
@@ -86,6 +88,11 @@ void ChangePlayer()
     player = states[food];
     Console.SetCursorPosition(playerX, playerY);
     Console.Write(player);
+}
+
+bool PlayerAppearanceIsStates1()
+{
+    return player == "(^-^)";
 }
 
 bool PlayerAppearanceIsStates2()
@@ -101,8 +108,9 @@ void FreezePlayer()
 }
 
 // Reads directional input from the Console and moves the player
-// Default value = false. If true, Quit Terminal on non-directional key
-void Move(bool closeTerminalOnNonDirectionalKey = false)
+// Default value closeTerminalOnNonDirectionalKey = false. If true, Quit Terminal on non-directional key
+// Default value increaseMovementSpeed = false. If true, increase or decrease the speed of movement to the right and left by 3 units
+void Move(bool closeTerminalOnNonDirectionalKey = false, bool increaseMovementSpeed = false)
 {
     int lastX = playerX;
     int lastY = playerY;
@@ -116,11 +124,11 @@ void Move(bool closeTerminalOnNonDirectionalKey = false)
 		case ConsoleKey.DownArrow: 
             playerY++; 
             break;
-		case ConsoleKey.LeftArrow:  
-            playerX--; 
+        case ConsoleKey.LeftArrow:
+            playerX -= increaseMovementSpeed ? 3 : 1;
             break;
-		case ConsoleKey.RightArrow: 
-            playerX++; 
+        case ConsoleKey.RightArrow:
+            playerX += increaseMovementSpeed ? 3 : 1;
             break;
         default:
             if (closeTerminalOnNonDirectionalKey)
