@@ -1,6 +1,4 @@
-﻿using System;
-
-Random random = new Random();
+﻿Random random = new Random();
 Console.CursorVisible = false;
 int height = Console.WindowHeight - 1;
 int width = Console.WindowWidth - 5;
@@ -24,16 +22,18 @@ string player = states[0];
 // Index of the current food
 int food = 0;
 
+
+
 InitializeGame();
 while (!shouldExit)
 {
-    // If true, Quit Terminal on non-directional key
-    Move(true); // Default value = false
-    // Terminate Program when resizing terminal
-    TerminateWhenResizingTerminal();
+    Move(true); 
+    ExitWhenResizingTerminal();
 }
 
-void TerminateWhenResizingTerminal()
+
+// Terminates the program if the terminal is resized
+void ExitWhenResizingTerminal()
 {
     if (TerminalResized())
     {
@@ -80,6 +80,7 @@ void FreezePlayer()
 }
 
 // Reads directional input from the Console and moves the player
+// Default value = false. If true, Quit Terminal on non-directional key
 void Move(bool closeTerminalOnNonDirectionalKey = false)
 {
     int lastX = playerX;
