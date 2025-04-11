@@ -25,8 +25,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertCast", "ConvertCast\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateCSharpMethodsParameters", "CreateCSharpMethodsParameters\CreateCSharpMethodsParameters.csproj", "{F5085623-902D-4AE3-967E-034FF05857F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebuggingAndExceptionHandling", "DebuggingAndExceptionHandling\DebuggingAndExceptionHandling.csproj", "{A4F25386-0B85-4E21-BBC2-50ACE36B270B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhileContinue", "DoWhileContinue\DoWhileContinue.csproj", "{15A27345-31E2-4499-BCFC-D554CAE8FB91}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For", "For\For.csproj", "{5128D754-5ACD-41E4-9674-7B933F634D47}"
@@ -44,6 +42,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariableScope", "VariableScope\VariableScope.csproj", "{6172FA04-CDAD-45FA-8D58-642154D69E63}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteFirstCSharpMethod", "WriteFirstCSharpMethod\WriteFirstCSharpMethod.csproj", "{C8DDE959-CF66-4F16-866F-ECDBA56C2A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateCSharpMethodsThatReturnValues", "CreateCSharpMethodsThatReturnValues\CreateCSharpMethodsThatReturnValues.csproj", "{414F574F-19C4-4DC4-B01B-A04E4A9A4015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debug101", "DebuggingAndExceptionHandling\Debug101\Debug101.csproj", "{6389653F-0CC8-4D55-8AB9-728C57AC9511}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,10 +96,6 @@ Global
 		{F5085623-902D-4AE3-967E-034FF05857F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5085623-902D-4AE3-967E-034FF05857F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5085623-902D-4AE3-967E-034FF05857F2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4F25386-0B85-4E21-BBC2-50ACE36B270B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4F25386-0B85-4E21-BBC2-50ACE36B270B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4F25386-0B85-4E21-BBC2-50ACE36B270B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4F25386-0B85-4E21-BBC2-50ACE36B270B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{15A27345-31E2-4499-BCFC-D554CAE8FB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{15A27345-31E2-4499-BCFC-D554CAE8FB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15A27345-31E2-4499-BCFC-D554CAE8FB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -130,6 +128,14 @@ Global
 		{C8DDE959-CF66-4F16-866F-ECDBA56C2A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8DDE959-CF66-4F16-866F-ECDBA56C2A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8DDE959-CF66-4F16-866F-ECDBA56C2A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414F574F-19C4-4DC4-B01B-A04E4A9A4015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414F574F-19C4-4DC4-B01B-A04E4A9A4015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414F574F-19C4-4DC4-B01B-A04E4A9A4015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414F574F-19C4-4DC4-B01B-A04E4A9A4015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6389653F-0CC8-4D55-8AB9-728C57AC9511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6389653F-0CC8-4D55-8AB9-728C57AC9511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6389653F-0CC8-4D55-8AB9-728C57AC9511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6389653F-0CC8-4D55-8AB9-728C57AC9511}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E5195F40-48D2-4D9B-9FF3-5BBBB8CB1353} = {9B78E80A-B2E6-4B78-8AFA-E2033CC6C859}
