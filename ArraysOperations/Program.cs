@@ -249,7 +249,7 @@ Console.WriteLine(newPangram.Trim()); */
     C235
     G3003   - Error
 */
-string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179"; 
+string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179";
 
 string[] IDsArray = orderStream.Split(',');
 Array.Sort(IDsArray);
@@ -258,6 +258,6 @@ foreach (string id in IDsArray)
 {
     if (id.Length != 4)
         Console.WriteLine(id + "\t - Error");
-    else 
+    else
         Console.WriteLine(id);
-} 
+}
