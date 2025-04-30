@@ -284,87 +284,59 @@ string[][] userEnteredValues = new string[][]
             new string[] { "0", "1", "2"}
 };
 
-string overallStatusMessage = "";
-
-overallStatusMessage = Workflow1(userEnteredValues);
-
-if (overallStatusMessage == "operating procedure complete")
+try
 {
+    Workflow1(userEnteredValues);
     Console.WriteLine("'Workflow1' completed successfully.");
+
 }
-else
+catch (DivideByZeroException ex)
 {
     Console.WriteLine("An error occurred during 'Workflow1'.");
-    Console.WriteLine(overallStatusMessage);
+    Console.WriteLine(ex.Message);
 }
 
-static string Workflow1(string[][] userEnteredValues)
-{
-    string operationStatusMessage = "good";
-    string processStatusMessage = "";
 
+static void Workflow1(string[][] userEnteredValues)
+{
     foreach (string[] userEntries in userEnteredValues)
     {
-        processStatusMessage = Process1(userEntries);
-
-        if (processStatusMessage == "process complete")
+        try
         {
+            Process1(userEntries);
             Console.WriteLine("'Process1' completed successfully.");
             Console.WriteLine();
         }
-        else
+        catch (FormatException ex)
         {
             Console.WriteLine("'Process1' encountered an issue, process aborted.");
-            Console.WriteLine(processStatusMessage);
+            Console.WriteLine(ex.Message);
             Console.WriteLine();
-            operationStatusMessage = processStatusMessage;
         }
     }
-
-    if (operationStatusMessage == "good")
-    {
-        operationStatusMessage = "operating procedure complete";
-    }
-
-    return operationStatusMessage;
 }
 
-static string Process1(String[] userEntries)
-{
-    string processStatus = "clean";
-    string returnMessage = "";
-    int valueEntered;
 
+static void Process1(String[] userEntries)
+{
     foreach (string userValue in userEntries)
     {
-        bool integerFormat = int.TryParse(userValue, out valueEntered);
-
-        if (integerFormat == true)
+        try
         {
-            if (valueEntered != 0)
+            int valueEntered = int.Parse(userValue);
+
+            if (valueEntered == 0)
+                throw new DivideByZeroException("Invalid data. User input values must be non-zero values.");
+
+            checked
             {
-                checked
-                {
-                    int calculatedValue = 4 / valueEntered;
-                }
-            }
-            else
-            {
-                returnMessage = "Invalid data. User input values must be non-zero values.";
-                processStatus = "error";
+                int calculatedValue = 4 / valueEntered;
             }
         }
-        else
+        catch (FormatException)
         {
-            returnMessage = "Invalid data. User input values must be valid integers.";
-            processStatus = "error";
+            throw new FormatException("Invalid data. User input values must be valid integers.");
         }
     }
 
-    if (processStatus == "clean")
-    {
-        returnMessage = "process complete";
-    }
-
-    return returnMessage;
 }
