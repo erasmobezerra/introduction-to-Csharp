@@ -193,6 +193,8 @@ Veja algumas informações importantes desta unidade.
 6.O operador += concatena uma nova cadeia de caracteres à direita para a cadeia de caracteres existente à esquerda. */
 
 
+int age = 25;
+string ageString = age.ToString();  // ageString é "25"
 
 
 // *Concluir um desafio em que é preciso aplicar a interpolação de cadeias de caracteres a uma carta-modelo

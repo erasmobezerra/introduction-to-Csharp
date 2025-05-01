@@ -290,7 +290,7 @@ try
     Console.WriteLine("'Workflow1' completed successfully.");
 
 }
-catch (DivideByZeroException ex)
+catch (DivideByZeroException  FormatException ex)
 {
     Console.WriteLine("An error occurred during 'Workflow1'.");
     Console.WriteLine(ex.Message);
