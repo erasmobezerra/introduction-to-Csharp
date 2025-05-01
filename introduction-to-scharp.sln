@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transaction", "GuidedProjec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTransaction", "ChallengeProjects\ProjectTransaction\ProjectTransaction.csproj", "{784A7112-F4BC-4BFB-9499-71B423CFC72F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugConfigurationFiles", "DebuggingAndExceptionHandling\DebugConfigurationFiles\DebugConfigurationFiles.csproj", "{0CE123CE-95C6-4A79-9F6A-B0FD6559F740}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -168,6 +170,10 @@ Global
 		{784A7112-F4BC-4BFB-9499-71B423CFC72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{784A7112-F4BC-4BFB-9499-71B423CFC72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{784A7112-F4BC-4BFB-9499-71B423CFC72F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CE123CE-95C6-4A79-9F6A-B0FD6559F740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE123CE-95C6-4A79-9F6A-B0FD6559F740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE123CE-95C6-4A79-9F6A-B0FD6559F740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE123CE-95C6-4A79-9F6A-B0FD6559F740}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E5195F40-48D2-4D9B-9FF3-5BBBB8CB1353} = {9B78E80A-B2E6-4B78-8AFA-E2033CC6C859}
@@ -180,5 +186,6 @@ Global
 		{BF1751EB-07DC-47EE-AF17-6B4A0CC72AAB} = {4EED3ABB-7C5D-4BA2-89F0-6B8E83AFBEB2}
 		{6B206CDF-60E7-4E21-9B3D-6C0F98DDF1F5} = {4DB90ACE-14E7-4AFB-B990-B961DF547B64}
 		{784A7112-F4BC-4BFB-9499-71B423CFC72F} = {9B78E80A-B2E6-4B78-8AFA-E2033CC6C859}
+		{0CE123CE-95C6-4A79-9F6A-B0FD6559F740} = {4EED3ABB-7C5D-4BA2-89F0-6B8E83AFBEB2}
 	EndGlobalSection
 EndGlobal
