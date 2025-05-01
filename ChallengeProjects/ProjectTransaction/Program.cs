@@ -1,20 +1,30 @@
 ﻿/*
-This application manages transactions at a store check-out line. The
-check-out line has a cash register, and the register has a cash till
-that is prepared with a number of bills each morning. The till includes
-bills of four denominations: $1, $5, $10, and $20. The till is used
-to provide the customer with change during the transaction. The item 
-cost is a randomly generated number between 2 and 49. The customer 
-offers payment based on an algorithm that determines a number of bills
-in each denomination. 
+Este aplicativo gerencia transações no caixa de uma loja. O caixa possui uma caixa registradora, e o caixa possui um caixa eletrônico
+que é preparado com diversas notas todas as manhãs. O caixa inclui notas de quatro valores: R$ 1, R$ 5, R$ 10 e R$ 20. O caixa eletrônico é usado
+para fornecer troco ao cliente durante a transação. O custo do item é um número gerado aleatoriamente entre 2 e 49. O cliente oferece o pagamento 
+com base em um algoritmo que determina um número de notas em cada valor.
 
-Each day, the cash till is loaded at the start of the day. As transactions
-occur, the cash till is managed in a method named MakeChange (customer 
-payments go in and the change returned to the customer comes out). A 
-separate "safety check" calculation that's used to verify the amount of
-money in the till is performed in the "main program". This safety check
-is used to ensure that logic in the MakeChange method is working as 
-expected.
+Diariamente, o caixa eletrônico é abastecido no início do dia. Conforme as transações ocorrem, o caixa eletrônico é gerenciado por um método 
+chamado "MakeChange" (os pagamentos do cliente entram e o troco devolvido ao cliente sai). Um cálculo separado de "verificação de segurança" 
+usado para verificar a quantidade de dinheiro no caixa eletrônico é realizado no "programa principal". Esta verificação de segurança
+é usada para garantir que a lógica no método MakeChange esteja funcionando conforme
+o esperado.
+
+
+ESPECIFICAÇÃO: 
+
+Os seguintes requisitos de especificação se aplicam às transações simuladas:
+
+instruções de nível superior simulam transações usando custos de item gerados aleatoriamente.
+as instruções de nível superior geram valores aleatórios para itemCost no intervalo 2 - 49.
+as instruções de nível superior simulam 100 transações.
+
+A saída da transação relatada precisa incluir:
+
+Um registro de 100 tentativas de transações.
+Instâncias de uma mensagem informando: "Não foi possível fazer a transação: InvalidOperationException: não foi fornecido dinheiro suficiente para concluir a transação."
+Instâncias de uma mensagem informando: "Não foi possível fazer a transação: InvalidOperationException: a gaveta do caixa não pode trocar o dinheiro fornecido."
+Um valor de gaveta do caixa relatado igual ao valor de gaveta do caixa esperado.
 */
 
 
@@ -103,7 +113,6 @@ do
 
 } while (readResult == null);
 
-// ====================================================================================
 static void LoadTillEachMorning(int[,] registerDailyStartingCash, int[] cashTill)
 {
     cashTill[0] = registerDailyStartingCash[0, 1];
@@ -115,13 +124,14 @@ static void LoadTillEachMorning(int[,] registerDailyStartingCash, int[] cashTill
 
 static void MakeChange(int cost, int[] cashTill, int twenties, int tens = 0, int fives = 0, int ones = 0)
 {
-    // Copia o valor do caixa antes da abertura do mesmo 
+    // o array fictionalCashTill armazenará a copia o valor do caixa antes da abertura do mesmo.
     int[] fictionalCashTill = new int[4];
+    // O método Array.Copy garante que os elementos sejam copiados, não a referência do array
     Array.Copy(cashTill, fictionalCashTill, fictionalCashTill.Length);
 
     // Valor pago pelo comprador 
     int amountPaid = twenties * 20 + tens * 10 + fives * 5 + ones;
-    
+
     // Valor do Troco -> Diferença entre valor pago e valor do produto
     int changeNeeded = amountPaid - cost;
 
